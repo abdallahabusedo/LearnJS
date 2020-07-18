@@ -1,9 +1,8 @@
-<p style="text-align:center"
->
-<img 
- src="https://user-images.githubusercontent.com/42722816/87859950-7fa41500-c939-11ea-8af6-b169e34ab118.png
-" width="250">
-</p>
+<div style="text-align:center ; width:250px ; margin : 0 auto " >
+
+![108936787_303833617432528_8814353137188883847_n](https://user-images.githubusercontent.com/42722816/87861206-6c4a7700-c944-11ea-9d11-f0df9e06789a.png)
+
+</div>
 
 # Intro to Front-End Web Development
 
@@ -68,8 +67,7 @@ Responsive Web Design is about using HTML and CSS to automatically resize a webs
 
 Responsive Web Design is about making a website look good on all devices (desktops , tablets , and phones)
 
-<img src="https://www.w3schools.com/whatis/img_temp_band.jpg
-" />
+![](https://www.w3schools.com/whatis/img_temp_band.jpg)
 
 ## Github
 
@@ -79,37 +77,35 @@ Responsive Web Design is about making a website look good on all devices (deskto
 
 - press in the New button
 
-<img src="https://user-images.githubusercontent.com/42722816/87860540-a57fe880-c93e-11ea-9119-79664bc638af.png
-"/>
+![](https://user-images.githubusercontent.com/42722816/87860540-a57fe880-c93e-11ea-9119-79664bc638af.png)
 
 - write the name and the description of the project
 - choose the visibility public or private
 - create a good readme
-  <img src="https://user-images.githubusercontent.com/42722816/87860602-f55eaf80-c93e-11ea-9881-6cb196cf12f8.png"/>
+  ![](https://user-images.githubusercontent.com/42722816/87860602-f55eaf80-c93e-11ea-9881-6cb196cf12f8.png)
 
 then you create a new project
 
-<img src="https://user-images.githubusercontent.com/42722816/87860655-761dab80-c93f-11ea-8eb1-4d712655f4bc.png
-"/>
+![](https://user-images.githubusercontent.com/42722816/87860655-761dab80-c93f-11ea-8eb1-4d712655f4bc.png)
 
 to download the project
 download GitBash [from here](https://git-scm.com/downloads)
 
 - create a new folder in your computer
   then open Git bash from here
-  <img src="https://user-images.githubusercontent.com/42722816/87860697-d14f9e00-c93f-11ea-9dee-37c02e4fad91.png"/>
+  ![](https://user-images.githubusercontent.com/42722816/87860697-d14f9e00-c93f-11ea-9dee-37c02e4fad91.png)
 
   to clone the repo
   write this in git bash
 
   `git clone https://github.com/abdallahabusedo/LearnJS.git`
 
-    <img src="https://user-images.githubusercontent.com/42722816/87860734-25f31900-c940-11ea-902e-f4eb8a4fa307.png"/>
-    press enter
+  ![](https://user-images.githubusercontent.com/42722816/87860734-25f31900-c940-11ea-902e-f4eb8a4fa307.png)
+  press enter
 
   then enter the folder
 
-    <img src="https://user-images.githubusercontent.com/42722816/87860767-6fdbff00-c940-11ea-8c22-55b421de64bd.png"/>
+  ![](https://user-images.githubusercontent.com/42722816/87860767-6fdbff00-c940-11ea-8c22-55b421de64bd.png)
 
   to open the folder and start code we must have a [VS code](https://code.visualstudio.com/) :smirk:
   download it
@@ -118,7 +114,7 @@ download GitBash [from here](https://git-scm.com/downloads)
 
 to open the project in VS code write "code ." in the git bash after you get inside the folder
 
- <img src="https://user-images.githubusercontent.com/42722816/87860831-eaa51a00-c940-11ea-90cc-3fea41b39084.png"/>
+![](https://user-images.githubusercontent.com/42722816/87860831-eaa51a00-c940-11ea-90cc-3fea41b39084.png)
 
 ### Extinations
 
