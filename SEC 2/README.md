@@ -209,6 +209,21 @@ This can be used to create any shape.
 
 ## HTML Buttons
 
+`<button type="button">Click Me!</button>`
+
+<button type="button">Click Me!</button>
+
+### Buttons Attributes
+
+| Attribute | Value                 | Description                                                                |
+| --------- | --------------------- | -------------------------------------------------------------------------- |
+| autofocus | autofocus             | Specifies that a button should automatically get focus when the page loads |
+| disabled  | disabled              | Specifies that a button should be disabled                                 |
+| form      | form_id               | Specifies which form the button belongs to                                 |
+| name      | name                  | Specifies a name for the button                                            |
+| type      | button ,reset ,submit | Specifies the type of button                                               |
+| value     | Text                  | Specifies an initial value for the button                                  |
+
 ## HTML Links
 
 The HTML <a> tag defines a hyperlink. It has the following syntax:
@@ -439,3 +454,5 @@ https://www.w3schools.com/html/html_symbols.asp
 <p style="font-size:48px">
 &#128512; &#128516; &#128525; &#128151;
 </p>
+
+# The input Element
