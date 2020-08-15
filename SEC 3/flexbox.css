@@ -1,0 +1,107 @@
+html {
+    background-color: #ffeead;
+    margin: 10px;
+
+}
+
+.container div:nth-child(1) {
+    background-color: #96ecb4;
+}
+
+.container div:nth-child(2) {
+    background-color: #ff6f69;
+}
+
+.container div:nth-child(3) {
+    background-color: #96ecb4;
+}
+
+.container div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/***********flex box **********
+display : flex ;
+flex-direction : column , row
+
+justify-content: ;
+flex-start
+flex-end
+center
+space-around
+space-between
+space-evenly
+*/
+
+
+.container {
+    border: 5px solid #ecd36e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container div {
+    width: 300px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/***task search what is the other values**/
+.imageContainer>div {
+    flex: 1 1 30%;
+}
+
+/********************grid**********************/
+.grid {
+    height: 300px;
+    display: grid;
+    /**if i want to make all equal use 1fr for all **/
+    /**grid-template-columns: repeat(3 or auto-fill or auto-fit, 300px or minmax(min value like 300px , max value 1fr) )
+**/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box1 box2 .""box3 box3 box3";
+}
+
+.Box1 {
+    grid-area: box1;
+    background-color: #ff6f69;
+}
+
+
+.Box2 {
+    grid-area: box2;
+    background-color: #96ecb4;
+
+    /**use the short cut grid-row:1/3; and grid-column: 2/3; **/
+    /* grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;*/
+
+}
+
+.Box3 {
+    grid-area: box3;
+    background-color: #ffcc00;
+
+}

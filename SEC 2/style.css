@@ -126,7 +126,7 @@ a:hover {
 a:active {
   color: blue;
 }
-thetext-decoration property is mostly used to remove underlines from links: ;
+the text-decoration property is mostly used to remove underlines from links: ;
 a:link {
   text-decoration: none;
 }
@@ -192,7 +192,6 @@ table-layout
   -inline
   -block
   -inline-block this is if you want to give a width and a height
-
   -flex
   -grid
 */

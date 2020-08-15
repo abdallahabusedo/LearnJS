@@ -1,0 +1,62 @@
+/****************Transforms****************
+2D
+matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+translate() rotate() scaleX() scaleY() scale() skewX() skewY() skew() matrix()
+3D
+rotateX() rotateY() rotateZ()
+*/
+/****************Transition****************
+ transition: width 4s,
+ background-color 2s;
+
+transition-timing-function
+transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
+
+*/
+@media screen and (max-width : 1000px) {
+  p {
+    color: brown;
+    font-size: 50px;
+  }
+}
+
+.Transforms {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  transform: translate(100px, 50px) rotate(45deg) scale(0.2, 0.2) skewY(50deg);
+}
+
+.transition {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  transition: width 4s, background-color 2s;
+  transform: translate(100px, 5px);
+  transition-delay: 1s;
+}
+
+.transition:hover {
+  background-color: aqua;
+  width: 500px;
+  transition-timing-function: ease-in;
+}
+
+/**************************************/
+:root {
+  --para: pink;
+  --blue-orange: rgba(133, 19, 186, 0.605);
+}
+
+p {
+  color: var(--blue-orange);
+}
