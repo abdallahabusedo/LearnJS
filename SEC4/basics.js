@@ -74,5 +74,70 @@ console.log(5 * 20);
 // Divide
 console.log(20 / 4);
 // Modulus (it's operation will give u the reminder in fraction division 20%2 = 0  but 21%2 = 1)
+<<<<<<< HEAD:SEC4/basics.js
 console.log(20 % 2);
 console.log(21 % 2);
+=======
+console.log( 20%2 )  
+console.log( 21%2 ) 
+
+// Second :: Logic operationsa ( === !== || && )
+// === => compare type and content in both sides
+// ==  => compare content only
+// === (equality) !==(not equal)  || ( OR ) && ( AND )
+// They are like quistions did something .... is to something? (.... => used operation)
+console.log( 5 === 5)   // will return true
+console.log( 5 == '5')  // will return true also
+console.log( "Some" === "Thing") // will return false
+x = 0 // will be crosponding to false
+y = 1 // will be crosponding to true 
+//Note :: Any number or variable contain something will be true
+console.log(x || y) // will be true cause both conditions are  true
+console.log(x && y) // will be false cause one condition is  false
+
+///////////////////////////////////////////////////////////////////////////////////
+//                                  Loops & If statements
+////////////////////////////////////////////////////////////////////////////////////
+
+// First :: IF statements 
+// It's a container asking for something if it's true will do that code if not it will do nothing
+if (y === 1){
+    console.log("Yes,Y is equal to one")
+} else {
+    console.log("No,Y is something else")
+}
+// if u checking more than question in sequance like x = 0 ? if not check then x = 1 ? and so on u can use else if
+if ( x == 1) {
+    console.log("X is equal to one")
+} else if (x == 0) {
+    console.log("X is equal to zero")
+} else {
+    console.log("X is something else")
+}
+
+// Second :: Loops
+// A) While loop (event loop)
+// This is loop while the condition is true do this block of code 
+while(x < 10) {
+    x += 1 // This easy typing for x = x + 1 shortcut
+}
+
+// B) For loop (event or limited times)
+// This is loop asking for 3 things intial condition or counter ; the question ; at the end do something
+for(var i =0 ; i<10 ; i+=1 ){
+    console.log("Inside the for loop") // this will be excuted for 10 times 
+}
+
+// Note :: we can use both break(to break the loop and get out of it) and continue (go to the next round of the loop)
+var breaker = 0 
+while( breaker < 10 ){
+    break
+    console.log("I'm still inside the loop")
+    breaker+=1
+}
+while ( breaker < 10 ){
+    breaker+=1
+    continue
+    console.log("I'm not going to continue")
+}
+>>>>>>> 87019208fe8d044634b82155b3ff68ffda90a118:SEC 3/basics.js
