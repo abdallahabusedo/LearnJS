@@ -1,9 +1,10 @@
-/**
- * Here we will learn the basics of Javascript as programming language
- */
+//Where to put the js
+// https://www.youtube.com/watch?v=upDLs1sn7g4
 
-// First how to output something in JS
-// We have 4 ways to output something in JS
+// Hello world
+
+console.log("Hello world");
+
 // 1- innerHTML (DOM) way
 document.getElementById("basics").innerHTML = 7 + 6;
 // 2- document.write()
@@ -12,14 +13,6 @@ document.write("I am document.write()");
 console.log("Hello from the console");
 // 4- In alert massage
 window.alert("I am alert");
-
-/**
- * We can now start to learn the basics operations of JS using our console for now
- */
-
-///////////////////////////////////////////////////////////////////////////////////
-//                                  VARIABLES
-///////////////////////////////////////////////////////////////////////////////////
 
 // First :: variables (var)
 var x = 5; // then x => is 5  (int)
@@ -59,6 +52,39 @@ var object = {
 console.log("Object example: ");
 console.log(object);
 
+// ASI Automatic semicolon insertion
+const monthlyRent = 500;
+// no spaces
+console.log("monthlyRent", monthlyRent);
+// we can't say then  monthlyRent = 600;
+const yearlyRent = monthlyRent * 12;
+console.log("yearlyRent", yearlyRent);
+// camel case
+
+// cant Say const const = 5;
+/**
+ * go to the console and try to write these lines
+ * x=5
+ * 5*25
+ * console.log(5)
+ */
+
+/** Numbers Strings and booleans  */
+
+const myName = "Abdallah abu sedo";
+const myName3 = `Abdallah abu sedo`;
+
+console.log("myName", myName);
+
+const firstName = "Abdallah";
+const lastName = "Abusedo";
+
+const fullName = "Hello " + firstName + " " + lastName + " ! How are u ";
+const fullName2 = `Hello ${firstName} ${lastName} ! How are u `;
+
+console.log("fullName", fullName);
+console.log("fullName2", fullName2);
+
 ///////////////////////////////////////////////////////////////////////////////////
 //                                  OPERATIONS
 ///////////////////////////////////////////////////////////////////////////////////
@@ -93,38 +119,53 @@ y = 1; // will be crosponding to true
 console.log(x || y); // will be true cause both conditions are  true
 console.log(x && y); // will be false cause one condition is  false
 
-///////////////////////////////////////////////////////////////////////////////////
-//                                  Loops & If statements
-////////////////////////////////////////////////////////////////////////////////////
+// comments ot /** */
+const lightIsOn = true;
 
-// First :: IF statements
-// It's a container asking for something if it's true will do that code if not it will do nothing
-if (y === 1) {
-  console.log("Yes,Y is equal to one");
+// Control Flow
+
+const skyIsBkue = true;
+const cubeFaces = 6;
+if (skyIsBkue === true) {
+  console.log("Sky is blue ");
 } else {
-  console.log("No,Y is something else");
+  console.log("Sky is yallow");
 }
-// if u checking more than question in sequance like x = 0 ? if not check then x = 1 ? and so on u can use else if
-if (x == 1) {
-  console.log("X is equal to one");
-} else if (x == 0) {
-  console.log("X is equal to zero");
+
+/**oooooooooooooooor  */
+
+skyIsBkue ? console.log("Sky is blue ") : console.log("Sky is yallow");
+
+// this is called coercion
+if (cubeFaces == "6") {
+  console.log("Yes ");
 } else {
-  console.log("X is something else");
+  console.log("No");
 }
 
-// Second :: Loops
-// A) While loop (event loop)
-// This is loop while the condition is true do this block of code
-while (x < 10) {
-  x += 1; // This easy typing for x = x + 1 shortcut
+const blue = "yallow";
+// ligature
+if (blue === "blue") {
+  console.log("blue");
+} else if (blue === "green") {
+  console.log("green");
+} else if (blue == " yallow") {
+  console.log("yallow");
 }
 
-// B) For loop (event or limited times)
-// This is loop asking for 3 things intial condition or counter ; the question ; at the end do something
-for (var i = 0; i < 10; i += 1) {
-  console.log("Inside the for loop"); // this will be excuted for 10 times
+/// loooooooooops
+
+let myFriendsNum = 0;
+while (myFriendsNum < 10) {
+  myFriendsNum++; // this is equal to myFriendsNum = myFriendsNum +1 or myFriendsNum+=1
 }
+console.log(myFriendsNum);
+
+let counter = 0;
+for (let i = 0; i <= 10; i++) {
+  counter++;
+}
+console.log(counter);
 
 // Note :: we can use both break(to break the loop and get out of it) and continue (go to the next round of the loop)
 var breaker = 0;
@@ -138,7 +179,3 @@ while (breaker < 10) {
   continue;
   console.log("I'm not going to continue");
 }
-
-// diffrence between var and let
-
-function MyFunction ( )

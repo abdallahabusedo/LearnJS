@@ -1,3 +1,7 @@
+/*****************Max width****************
+*/
+
+
 /*****************Background***************
   background-color: red ;
   background-color: #ffffff ;
@@ -38,6 +42,83 @@
     -color
     -luminosity
   **************************************/
+.Background1 {
+  color: #4feb01;
+  font-size: 100px;
+  background-color: rgba(255, 0, 0, 1);
+  background-image: url('Responsive-pana.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 200px;
+  border: 20px dashed black;
+  background-attachment: local;
+  background-origin: border-box;
+  text-align: center;
+  background-clip: padding-box;
+}
+
+.Background2 {
+  color: #4feb01;
+  font-size: 100px;
+  background-color: rgba(255, 0, 0, 1);
+  background-image: url('Responsive-pana.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 200px;
+  border: 20px dashed black;
+  background-attachment: local;
+  background-origin: border-box;
+  text-align: center;
+  padding: 10px;
+  background-clip: border-box;
+}
+
+.Background3 {
+  color: #4feb01;
+  font-size: 100px;
+  background-color: rgba(255, 0, 0, 1);
+  background-image: url('Responsive-pana.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 200px;
+  border: 20px dashed black;
+  background-attachment: local;
+  background-origin: border-box;
+  text-align: center;
+  background-clip: content-box;
+  padding: 10px;
+}
+
+#example1 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-size: contain;
+}
+
+#example2 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: contain;
+}
+
+#example3 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+}
+
 /*****************Box Model****************
 padding: 20px 10px 5px 15px;
 border: 10px dotted red;
@@ -46,6 +127,7 @@ border-radius: 50px;
 border-style: ridge;
 margin: 50px;
 */
+
 /*****************Text Styling*************
 text color
  color : red ;
@@ -86,6 +168,38 @@ font weight
 
 
 */
+h1 {
+  color: crimson;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-weight: 200px;
+}
+
+#textFormatting {
+  font-size: 100px;
+  border: 5px solid #d31111;
+  padding: 20px;
+  margin: 25px;
+}
+
+.text1 {
+  color: red;
+  padding: 30px;
+  text-transform: uppercase;
+  text-indent: 100px;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  word-spacing: 10px;
+  text-align: justify;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
 /*****************Icons********************
   font awesome
   <i class="fas fa-cloud"></i>
@@ -106,6 +220,23 @@ font weight
   <i class="glyphicon glyphicon-envelope"></i>
   <i class="glyphicon glyphicon-thumbs-up"></i>
 */
+
+* {
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  padding: 20px 10px 5px 15px;
+  border: 10px dotted red;
+  border-top: 10px solid black;
+  border-radius: 50px;
+  border-style: ridge;
+  margin: 50px;
+}
+
 /*****************links********************
    unvisited link 
 a:link {
@@ -144,6 +275,32 @@ a:active {
 }
 
 */
+.Links {
+  opacity: 80%;
+  background-color: #1b435d;
+}
+
+a {
+  font-size: 80px;
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+.Linkss {
+  text-align: center;
+}
+
 /*****************Lists********************
 list-style-image: url('sqpurple.gif');
 list-style-type: upper-alpha;
@@ -173,6 +330,22 @@ list-style-position: inside;
   -outside
 
 */
+body div a {
+  text-align: center;
+}
+
+body ul li {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+ul {
+  list-style-image: url('sqpurple.gif');
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+}
+
 /*****************Tables*******************
 border 
 border-collapse
@@ -187,6 +360,46 @@ table-layout
   -fixed
   -auto
 */
+table {
+  border: 5px double black;
+  border-collapse: separate;
+  border-spacing: 50px 50px;
+  width: 100%;
+}
+
+.Tablena th {
+  text-align: center;
+  background-color: #d8ff6c;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+.Tablena tr {
+  border: 5px double black;
+}
+
+.Tablena td,
+th {
+  border: 5px double black;
+}
+
+.Tablena tr:nth-child(odd) {
+  background-color: rgb(214, 214, 214);
+}
+
+.tt {
+  /* for responsive tabel*/
+  overflow-x: auto;
+}
+
+.list-header {
+  position: sticky;
+  top: 0;
+}
+
 /*****************Display******************
   display : none
   -inline
@@ -195,8 +408,7 @@ table-layout
   -flex
   -grid
 */
-/*****************Max width****************
-*/
+/* Background Styles Only */
 /*****************Positions****************
 position: static;
   -HTML elements are positioned static by default.
@@ -227,189 +439,6 @@ The CSS clear property specifies what elements can float beside the cleared elem
   -right
   -both
 */
-
-.Background1 {
-  color: #4feb01;
-  font-size: 100px;
-  background-color: rgba(255, 0, 0, 1);
-  background-image: url('Responsive-pana.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
-  padding: 200px;
-  border: 20px dashed black;
-  background-attachment: local;
-  background-origin: border-box;
-  text-align: center;
-  background-clip: padding-box;
-}
-.Background2 {
-  color: #4feb01;
-  font-size: 100px;
-  background-color: rgba(255, 0, 0, 1);
-  background-image: url('Responsive-pana.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
-  padding: 200px;
-  border: 20px dashed black;
-  background-attachment: local;
-  background-origin: border-box;
-  text-align: center;
-  padding: 10px;
-  background-clip: border-box;
-}
-.Background3 {
-  color: #4feb01;
-  font-size: 100px;
-  background-color: rgba(255, 0, 0, 1);
-  background-image: url('Responsive-pana.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
-  padding: 200px;
-  border: 20px dashed black;
-  background-attachment: local;
-  background-origin: border-box;
-  text-align: center;
-  background-clip: content-box;
-  padding: 10px;
-}
-#example1 {
-  border: 10px dashed black;
-  padding: 25px;
-  background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
-  background-repeat: no-repeat;
-  background-origin: padding-box;
-  background-size: contain;
-}
-#example2 {
-  border: 10px dashed black;
-  padding: 25px;
-  background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
-  background-repeat: no-repeat;
-  background-origin: border-box;
-  background-size: contain;
-}
-#example3 {
-  border: 10px dashed black;
-  padding: 25px;
-  background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  background-size: contain;
-}
-h1 {
-  color: crimson;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: blue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: italic;
-  font-weight: 200px;
-}
-.Links {
-  opacity: 80%;
-  background-color: #1b435d;
-}
-#textFormatting {
-  font-size: 100px;
-  border: 5px solid #d31111;
-  padding: 20px;
-  margin: 25px;
-}
-.text1 {
-  color: red;
-  padding: 30px;
-  text-transform: uppercase;
-  text-indent: 100px;
-  letter-spacing: 3px;
-  line-height: 1.8;
-  word-spacing: 10px;
-  text-align: justify;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: bolder;
-}
-* {
-  padding: 0;
-  border: none;
-  margin: 0;
-  text-align: center;
-}
-p {
-  padding: 20px 10px 5px 15px;
-  border: 10px dotted red;
-  border-top: 10px solid black;
-  border-radius: 50px;
-  border-style: ridge;
-  margin: 50px;
-}
-a {
-  font-size: 80px;
-  color: red;
-}
-a:visited {
-  color: red;
-}
-a:hover {
-  color: hotpink;
-}
-a:active {
-  color: blue;
-}
-.Linkss {
-  text-align: center;
-}
-body div a {
-  text-align: center;
-}
-body ul li {
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 20px;
-}
-ul {
-  list-style-image: url('sqpurple.gif');
-  list-style-type: upper-alpha;
-  list-style-position: inside;
-}
-table {
-  border: 5px double black;
-  border-collapse: separate;
-  border-spacing: 50px 50px;
-  width: 100%;
-}
-.Tablena th {
-  text-align: center;
-  background-color: #d8ff6c;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: Roboto;
-}
-.Tablena tr {
-  border: 5px double black;
-}
-.Tablena td,
-th {
-  border: 5px double black;
-}
-.Tablena tr:nth-child(odd) {
-  background-color: rgb(214, 214, 214);
-}
-.tt {
-  /* for responsive tabel*/
-  overflow-x: auto;
-}
-.list-header {
-  position: sticky;
-  top: 0;
-}
-
-/* Background Styles Only */
-
 .content {
   padding: 10px;
 }
@@ -452,44 +481,7 @@ th {
   font-weight: bold;
 }
 
-.side-links {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
 
-.side-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
-}
-
-.side-link-youtube {
-  background-color: red;
-}
-
-.side-link-twitter {
-  background-color: #1da1f2;
-}
-
-.side-link-github {
-  background-color: #6e5494;
-}
-
-.side-link-icon {
-  color: white;
-  font-size: 30px;
-}
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
-}
 div.ex1 {
   background-color: lightblue;
   width: 330px;
