@@ -1,0 +1,68 @@
+/*****************Background***************
+  background-color: red ;
+  background-color: #ffffff ;
+  background-color: rgb(255,255,255) ;
+  background-color: rgba(255,255,255,0.5) ;
+
+  background-image: url(Responsive-pana.png);
+  background-position: center center;
+    - bottom left right top
+    - horizontal vertical
+
+  background-size: cover;
+    - position / size
+    - cover | contain | auto
+
+  background-repeat: no-repeat;
+    - repeat-x repeat-y repeat
+
+  background-attachment: fixed;
+    - local scroll
+   local: The background is fixed relative to the element's contents.
+
+  background-origin: border-box;
+    - padding-box content-box
+
+  background-clip:content-box;
+    - padding-box border-box
+
+  background-blend-mode: ;
+    -normal
+    -multiply
+    -screen
+    -overlay
+    -darken
+    -lighten
+    -color-dodge
+    -saturation
+    -color
+    -luminosity
+*/
+
+
+.Back_one {
+  border: 20px solid black;
+  width: auto;
+  height: 40vh;
+  background-color: aquamarine;
+  background-image: url(back1.png);
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+  background-size: 50px;
+
+}
+
+.Back_tow {
+  padding: 100px;
+  height: 40vh;
+  width: auto;
+  background-color: rgb(218, 21, 21);
+  border: 15px dashed black;
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-clip: padding-box;
+}
+
+/** TASK background-attachment On Youtube */

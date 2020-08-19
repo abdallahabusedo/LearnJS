@@ -1,0 +1,60 @@
+/*****************Text Styling*************
+text color
+ color : red ;
+
+Text Alignment
+ text-align:center;
+  -left
+  -right
+  -justify
+
+  text-transform: none ;
+  -capitalize
+  -uppercase
+  -lowercase
+
+ text-indent: 100px;
+ letter-spacing: 3px;
+ line-height: 1.8;
+ word-spacing: 10px;
+
+text shadow
+  text-shadow: 2px 2px;
+
+Font Family
+
+font-style: normal ;
+  -italic
+  -oblique
+  -initial
+
+font size
+
+font weight
+
+
+*/
+
+.textStyling {
+    margin-top: 250px;
+    top: 50%;
+    border: 15px solid red;
+    padding: 10px;
+}
+
+.Text {
+    font-size: 30px;
+    color: rgb(25, 22, 22);
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 1px;
+    line-height: 2;
+    word-spacing: 1px;
+    text-shadow: 2px 2px yellow;
+    /* google fonts*/
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}

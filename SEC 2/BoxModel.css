@@ -1,0 +1,28 @@
+/*****************Box Model****************
+padding: 20px 10px 5px 15px;
+border: 10px dotted red;
+border-top: 10px solid black;
+border-radius: 50px;
+border-style: ridge;
+margin: 50px;
+*/
+
+.BOXMODEL {
+    background-color: yellow;
+    height: 50vh;
+    width: 100%;
+    border: 15px dashed black;
+    background-clip: padding-box;
+}
+
+
+/* the deffrence between a and h1 in the dispaly */
+.image {
+    width: 500px;
+    font-size: 40px;
+    font-family: Muli;
+    margin: 10px 30px 20px 5px;
+    padding: 10px 30px 20px 5px;
+    border: 10px solid black;
+    background-color: rgb(255, 0, 0);
+}
