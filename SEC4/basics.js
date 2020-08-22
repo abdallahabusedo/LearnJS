@@ -52,9 +52,9 @@ console.log(bool);
 // Forth :: Objects
 // They as a collection of things
 var object = {
-  name: "Sedo",
-  age: 21,
-  email: "example@example.com",
+    name: "Sedo",
+    age: 21,
+    email: "example@example.com",
 };
 console.log("Object example: ");
 console.log(object);
@@ -100,45 +100,43 @@ console.log(x && y); // will be false cause one condition is  false
 // First :: IF statements
 // It's a container asking for something if it's true will do that code if not it will do nothing
 if (y === 1) {
-  console.log("Yes,Y is equal to one");
+    console.log("Yes,Y is equal to one");
 } else {
-  console.log("No,Y is something else");
+    console.log("No,Y is something else");
 }
 // if u checking more than question in sequance like x = 0 ? if not check then x = 1 ? and so on u can use else if
 if (x == 1) {
-  console.log("X is equal to one");
+    console.log("X is equal to one");
 } else if (x == 0) {
-  console.log("X is equal to zero");
+    console.log("X is equal to zero");
 } else {
-  console.log("X is something else");
+    console.log("X is something else");
 }
 
 // Second :: Loops
 // A) While loop (event loop)
 // This is loop while the condition is true do this block of code
 while (x < 10) {
-  x += 1; // This easy typing for x = x + 1 shortcut
+    x += 1; // This easy typing for x = x + 1 shortcut
 }
 
 // B) For loop (event or limited times)
 // This is loop asking for 3 things intial condition or counter ; the question ; at the end do something
 for (var i = 0; i < 10; i += 1) {
-  console.log("Inside the for loop"); // this will be excuted for 10 times
+    console.log("Inside the for loop"); // this will be excuted for 10 times
 }
 
 // Note :: we can use both break(to break the loop and get out of it) and continue (go to the next round of the loop)
 var breaker = 0;
 while (breaker < 10) {
-  break;
-  console.log("I'm still inside the loop");
-  breaker += 1;
+    break;
+    console.log("I'm still inside the loop");
+    breaker += 1;
 }
 while (breaker < 10) {
-  breaker += 1;
-  continue;
-  console.log("I'm not going to continue");
+    breaker += 1;
+    continue;
+    console.log("I'm not going to continue");
 }
 
 // diffrence between var and let
-
-function MyFunction ( )
