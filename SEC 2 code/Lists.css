@@ -1,0 +1,93 @@
+/*****************Lists********************
+list-style-image: url('sqpurple.gif');
+list-style-type: upper-alpha;
+  -disc
+  -armenian
+  -circle
+  -cjk-ideographic
+  -decimal
+  -decimal-leading-zero
+  -georgian
+  -hebrew
+  -hiragana
+  -hiragana-iroha
+  -katakana
+  -katakana-iroha
+  -lower-alpha
+  -lower-greek
+  -lower-latin
+  -lower-roman
+  -none
+  -square
+  -upper-alpha
+  -upper-greek
+  -upper-latin
+  -upper-roman)
+
+
+*/
+
+.Lists {
+    font-size: large;
+    padding: 50px;
+    color: white;
+    margin: auto;
+    background-color: crimson;
+    width: 30%;
+    margin-top: 250px;
+}
+
+ul {
+    list-style-image: url('list.png');
+}
+
+ol {
+    list-style-type: upper-alpha
+}
+
+
+/*****************Tables*******************
+border
+border-collapse
+border-spacing
+caption-side
+  -top
+  -bottom
+empty-cells
+  -hide
+  -show
+table-layout
+  -fixed
+  -auto
+*/
+
+.Tables {
+    font-size: large;
+    padding: 50px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+    border: 3px solid red;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    table-layout: fixed;
+    empty-cells: show;
+}
+
+th {
+    caption-side: bottom;
+    text-align: center;
+    border: 1.5px dashed rgb(255, 0, 0);
+}
+
+td {
+    text-align: center;
+    border: 1.5px dashed black;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(214, 214, 214);
+}

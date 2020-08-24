@@ -5,58 +5,64 @@ translate() rotate() scaleX() scaleY() scale() skewX() skewY() skew() matrix()
 3D
 rotateX() rotateY() rotateZ()
 */
+
+
 /****************Transition****************
  transition: width 4s,
  background-color 2s;
 
 transition-timing-function
 transition-timing-function: linear;
-    transition-timing-function: ease;
-    transition-timing-function: ease-in;
-    transition-timing-function: ease-out;
-    transition-timing-function: ease-in-out;
+transition-timing-function: ease;
+transition-timing-function: ease-in;
+transition-timing-function: ease-out;
+transition-timing-function: ease-in-out;
 
 */
-@media screen and (max-width : 1000px) {
-  p {
-    color: brown;
-    font-size: 50px;
-  }
+
+@media screen and (max-width: 1000px) {
+    p {
+        color: brown;
+    }
 }
 
 .Transforms {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(255, 0, 0);
-  transform: translate(100px, 50px) rotate(45deg) scale(0.2, 0.2) skewY(50deg);
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    transform: translate(20px, 10px) rotate(45deg) scaleX(1) scaleY(1);
+    transition: 4s;
 }
 
 .transition {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 200px;
-  height: 200px;
-  background-color: crimson;
-  transition: width 4s, background-color 2s;
-  transform: translate(100px, 5px);
-  transition-delay: 1s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    transform: translate(100px, 5px);
+    transition: width 4s, 2s;
+    transition-delay: 0.5s;
 }
 
 .transition:hover {
-  background-color: aqua;
-  width: 500px;
-  transition-timing-function: ease-in;
+    background-color: aqua;
+    width: 500px;
+    transition-timing-function: ease-in-out;
 }
 
+
 /**************************************/
+
 :root {
-  --para: pink;
-  --blue-orange: rgba(133, 19, 186, 0.605);
+    --para: pink;
+    --blue-orange: rgba(133, 19, 186, 0.605);
+    --font-size: 3rem;
 }
 
 p {
-  color: var(--blue-orange);
+    color: var(--blue-orange);
 }

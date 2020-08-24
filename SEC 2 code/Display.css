@@ -1,0 +1,189 @@
+/*****************Display******************
+  display : none
+  -inline
+  -block
+  -inline-block this is if you want to give a width and a height
+
+
+  next sec for more details
+  -flex
+  -grid
+*/
+
+
+/**********just for display*************/
+
+.Div_1 {
+    margin-top: 100px;
+    background-color: red;
+    font-size: 30px;
+}
+
+.Span_1 {
+    background-color: rgb(255, 145, 0);
+    font-size: 30px;
+}
+
+.Span_2 {
+    background-color: rgb(72, 0, 255);
+    font-size: 30px;
+}
+
+.Div_2 {
+    background-color: rgb(255, 0, 136);
+    font-size: 30px;
+}
+
+.BananaImage {
+    width: 150px;
+}
+
+
+/***************************/
+
+.Div_1 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.Span_1 {}
+
+.Span_2 {}
+
+.Div_2 {}
+
+.BananaImage {}
+
+
+/*****************Positions****************
+position: static;
+  -HTML elements are positioned static by default.
+position: relative;
+    - allows you to use left up and right and bottom
+  -An element with position: relative; is positioned relative to its normal position.
+position: fixed;
+  -An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+position: absolute;
+  -An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).  
+position: sticky;
+  -An element with position: sticky; is positioned based on the user's scroll position.
+  -A sticky element toggles between relative and fixed, depending on the scroll position.
+*/
+
+.Parent {
+    position: relative;
+    margin-top: 100px;
+    background-color: #b2ebf2;
+    font-size: 40px;
+    padding: 40px;
+    height: 200vh;
+    /*change the height to 200vh*/
+}
+
+.Child_1 {
+    position: relative;
+    left: 20px;
+    background-color: #dd2c00;
+    padding: 10px;
+}
+
+.Child_2 {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    background-color: #ff5722;
+}
+
+.Child_3 {
+    position: fixed;
+    padding: 10px;
+    background-color: #00bcd4;
+}
+
+
+/*stick bar */
+
+.stickbar {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.list-header {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #00ff6c;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.list-content {
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+
+/*****************OverFlow*****************
+The overflow property specifies what should happen if content overflows an element's box.
+overflow: visible;
+  -hidden
+  -scroll
+  -auto
+*/
+
+.OverFlow h2 {
+    text-align: center;
+}
+
+.ex1 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: scroll;
+    text-align: center;
+    margin-left: 450px;
+}
+
+.ex2 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 450px;
+}
+
+.ex3 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: auto;
+    text-align: center;
+    margin-left: 450px;
+}
+
+.ex4 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: visible;
+    text-align: center;
+    margin-left: 450px;
+}
+
+
+/*****************Float**********
+The CSS float property specifies how an element should float.
+  -left
+  -right
+*/

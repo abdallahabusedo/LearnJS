@@ -1,0 +1,446 @@
+/*****************Max width****************
+*/
+
+.Background1 {
+    color: #4feb01;
+    font-size: 100px;
+    background-color: rgba(255, 0, 0, 1);
+    background-image: url("Responsive-pana.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 200px;
+    border: 20px dashed black;
+    background-attachment: local;
+    background-origin: border-box;
+    text-align: center;
+    background-clip: padding-box;
+}
+
+.Background2 {
+    color: #4feb01;
+    font-size: 100px;
+    background-color: rgba(255, 0, 0, 1);
+    background-image: url("Responsive-pana.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 200px;
+    border: 20px dashed black;
+    background-attachment: local;
+    background-origin: border-box;
+    text-align: center;
+    padding: 10px;
+    background-clip: border-box;
+}
+
+.Background3 {
+    color: #4feb01;
+    font-size: 100px;
+    background-color: rgba(255, 0, 0, 1);
+    background-image: url("Responsive-pana.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 200px;
+    border: 20px dashed black;
+    background-attachment: local;
+    background-origin: border-box;
+    text-align: center;
+    background-clip: content-box;
+    padding: 10px;
+}
+
+#example1 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: contain;
+}
+
+#example2 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: contain;
+}
+
+#example3 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+}
+
+
+/*****************Box Model****************
+padding: 20px 10px 5px 15px;
+border: 10px dotted red;
+border-top: 10px solid black;
+border-radius: 50px;
+border-style: ridge;
+margin: 50px;
+*/
+
+
+/*****************Text Styling*************
+text color
+ color : red ;
+
+Text Alignment
+ text-align:center;
+  -left
+  -right
+  -justify
+  -initial
+
+Text Alignment
+  text-transform: none ;
+  -capitalize
+  -uppercase
+  -lowercase
+  -initial;
+
+Text Alignment
+ text-indent: 100px;
+ letter-spacing: 3px;
+ line-height: 1.8;
+ word-spacing: 10px;
+
+text shadow
+  text-shadow: 2px 2px;
+
+Font Family
+
+font-style: normal ;
+  -italic
+  -oblique
+  -initial
+
+font size
+
+font weight
+
+
+*/
+
+h1 {
+    color: crimson;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: blue;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 200px;
+}
+
+#textFormatting {
+    font-size: 100px;
+    border: 5px solid #d31111;
+    padding: 20px;
+    margin: 25px;
+}
+
+.text1 {
+    color: red;
+    padding: 30px;
+    text-transform: uppercase;
+    text-indent: 100px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 10px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/*****************Icons********************
+  font awesome
+  <i class="fas fa-cloud"></i>
+  <i class="fas fa-heart"></i>
+  <i class="fas fa-car"></i>
+  <i class="fas fa-file"></i>
+  <i class="fas fa-bars"></i>
+  google icons
+  <i class="material-icons">cloud</i>
+  <i class="material-icons">favorite</i>
+  <i class="material-icons">attachment</i>
+  <i class="material-icons">computer</i>
+  <i class="material-icons">traffic</i>
+  Glyph icons
+  <i class="glyphicon glyphicon-cloud"></i>
+  <i class="glyphicon glyphicon-remove"></i>
+  <i class="glyphicon glyphicon-user"></i>
+  <i class="glyphicon glyphicon-envelope"></i>
+  <i class="glyphicon glyphicon-thumbs-up"></i>
+*/
+
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    padding: 20px 10px 5px 15px;
+    border: 10px dotted red;
+    border-top: 10px solid black;
+    border-radius: 50px;
+    border-style: ridge;
+    margin: 50px;
+}
+
+.Links {
+    opacity: 80%;
+    background-color: #1b435d;
+}
+
+a {
+    font-size: 80px;
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+.Linkss {
+    text-align: center;
+}
+
+
+/*****************Lists********************
+list-style-image: url('sqpurple.gif');
+list-style-type: upper-alpha;
+  -disc
+  -armenian
+  -circle
+  -cjk-ideographic
+  -decimal
+  -decimal-leading-zero
+  -georgian
+  -hebrew
+  -hiragana
+  -hiragana-iroha
+  -katakana
+  -katakana-iroha
+  -lower-alpha
+  -lower-greek
+  -lower-latin
+  -lower-roman
+  -none
+  -square
+  -upper-alpha
+  -upper-greek
+  -upper-latin
+  -upper-roman)
+list-style-position: inside;
+  -outside
+
+*/
+
+body div a {
+    text-align: center;
+}
+
+body ul li {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-image: url("sqpurple.gif");
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+
+/*****************Tables*******************
+border 
+border-collapse
+border-spacing
+caption-side
+  -top
+  -bottom
+empty-cells
+  -hide
+  -show
+table-layout
+  -fixed
+  -auto
+*/
+
+table {
+    border: 5px double black;
+    border-collapse: separate;
+    border-spacing: 50px 50px;
+    width: 100%;
+}
+
+.Tablena th {
+    text-align: center;
+    background-color: #d8ff6c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.Tablena tr {
+    border: 5px double black;
+}
+
+.Tablena td,
+th {
+    border: 5px double black;
+}
+
+.Tablena tr:nth-child(odd) {
+    background-color: rgb(214, 214, 214);
+}
+
+.tt {
+    /* for responsive tabel*/
+    overflow-x: auto;
+}
+
+.list-header {
+    position: sticky;
+    top: 0;
+}
+
+
+/*****************Display******************
+  display : none
+  -inline
+  -block
+  -inline-block this is if you want to give a width and a height
+  -flex
+  -grid
+*/
+
+
+/* Background Styles Only */
+
+
+/*****************Positions****************
+position: static;
+  -HTML elements are positioned static by default.
+position: relative;
+  -An element with position: relative; is positioned relative to its normal position.
+position: fixed;
+  -An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+position: absolute;
+  -An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).  
+position: sticky;
+  -An element with position: sticky; is positioned based on the user's scroll position.
+  -A sticky element toggles between relative and fixed, depending on the scroll position.
+*/
+
+
+/*****************OverFlow*****************
+The overflow property specifies what should happen if content overflows an element's box.
+overflow: visible;
+  -hidden
+  -scroll
+  -auto
+
+*/
+
+
+/*****************Float and Clear**********
+The CSS float property specifies how an element should float.
+  -left
+  -right
+The CSS clear property specifies what elements can float beside the cleared element and on which side.
+  -left
+  -right
+  -both
+*/
+
+.content {
+    padding: 10px;
+}
+
+.header-large {
+    color: #00ff6c;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://source.unsplash.com/g5Uh7nP60FA");
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(51, 51, 51);
+    padding: 5px;
+    color: #00ff6c;
+}
+
+.list {
+    justify-content: center;
+    padding: 20px;
+}
+
+.list-content {
+    padding: 10px 20px;
+}
+
+.list-header {
+    position: sticky;
+    background-color: #333;
+    color: #00ff6c;
+    padding: 10px;
+    font-weight: bold;
+}
+
+div.ex1 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: scroll;
+}
+
+div.ex2 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+}
+
+div.ex3 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: auto;
+}
+
+div.ex4 {
+    background-color: lightblue;
+    width: 330px;
+    height: 330px;
+    overflow: visible;
+}

@@ -1,0 +1,80 @@
+/***
+unvisited link 
+a:link {
+    color: red;
+}
+
+visited link 
+a:visited {
+    color: green;
+}
+
+mouse over link a:hover {
+    color: hotpink;
+}
+
+selected link a:active {
+    color: blue;
+}
+
+the text-decoration property is mostly used to remove underlines from links:;
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+*/
+
+.Links {
+    width: 30%;
+    height: 40vh;
+    background-color: rgb(255, 181, 154);
+    text-align: center;
+    margin: auto;
+    padding: 130px;
+    border: 3px solid green;
+}
+
+.Links a {
+    color: red;
+}
+
+.Links a:visited {
+    color: green;
+}
+
+.Links a:hover {
+    color: rgb(8, 0, 255);
+}
+
+.Links a:active {
+    color: pink;
+}
+
+.Links a:link {
+    text-decoration: none;
+}
+
+.Links a:visited {
+    text-decoration: none;
+}
+
+.Links a:hover {
+    text-decoration: underline;
+}
+
+.Links a:active {
+    text-decoration: underline;
+}
