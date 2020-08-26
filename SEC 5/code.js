@@ -43,3 +43,31 @@ function addNewDoggo() {
 }
 
 document.getElementById("AddDog").addEventListener("click", addNewDoggo);
+
+/**
+ *
+S5 (JS - III)
+Intro to objects
+Creating new js object
+This keyword
+constructor functions
+The data objects
+Arrow functions
+Classes
+Promises
+async/await
+Try catch throw
+Destructuring
+Task 7 Make a timer
+ */
+/**
+ * https://www.w3schools.com/js/js_objects.asp
+ * https://www.w3schools.com/js/js_events.asp
+ * https://www.w3schools.com/js/js_math.asp
+ * https://www.w3schools.com/js/js_random.asp
+ * https://www.w3schools.com/js/js_switch.asp
+ * https://www.w3schools.com/js/js_this.asp
+ * https://www.w3schools.com/js/js_arrow_function.asp
+ * https://www.w3schools.com/js/js_object_classes.asp
+ * https://www.w3schools.com/js/js_errors.asp
+ */
