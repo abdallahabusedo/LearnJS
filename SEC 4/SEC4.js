@@ -16,8 +16,8 @@ document.getElementById("demo").innerHTML = "Hello World Abdallah";
 document.querySelector(".Demos").innerHTML = "New Hello";
 
 function doa() {
-    document.querySelector(".Demos").style.fontSize = "20px";
-    document.querySelector(".Demos").style.color = "red";
+  document.querySelector(".Demos").style.fontSize = "20px";
+  document.querySelector(".Demos").style.color = "red";
 }
 // |--==========<o8{Google dev tools}8o>==========--|
 console.log("|--==========<o8{Google dev tools}8o>==========--|");
@@ -63,17 +63,17 @@ console.log(isFalse);
 // |--==========<o8{If & if else}8o>==========--|
 console.log("|--==========<o8{If & if else}8o>==========--|");
 if (isTrue === true) {
-    console.log("is true");
+  console.log("is true");
 } else {
-    console.log("is false");
+  console.log("is false");
 }
 x = 50;
 if (x < 100) {
-    console.log("X is Small");
+  console.log("X is Small");
 } else if (x > 100) {
-    console.log("X is big");
+  console.log("X is big");
 } else {
-    console.log("X is 50");
+  console.log("X is 50");
 }
 // |--==========<o8{Comparing operation}8o>==========--|
 console.log("|--==========<o8{Comparing operation}8o>==========--|");
@@ -103,29 +103,29 @@ condition ? "if it is true" : "if it is false";
 console.log("|--==========<o8{While loop}8o>==========--|");
 let i = 10;
 while (i >= 0) {
-    console.log(`this is round num # ${i}`);
-    i--;
+  console.log(`this is round num # ${i}`);
+  i--;
 }
 // |--==========<o8{For loop}8o>==========--|
 console.log("|--==========<o8{For loop}8o>==========--|");
 for (let y = 0; y < 5; y++) {
-    console.log(y);
+  console.log(y);
 }
 // |--==========<o8{Break and continue}8o>==========--|
 console.log("|--==========<o8{Break and continue}8o>==========--|");
 let B = 0;
 // The break statement "jumps out" of a loop.
 for (i = 0; i < 10; i++) {
-    B++;
-    break;
-    console.log("i'm here ");
+  B++;
+  break;
+  console.log("i'm here ");
 }
 console.log("B:", B);
 // The continue statement "jumps over" one iteration in the loop.
 for (i = 0; i < 10; i++) {
-    B++;
-    continue;
-    console.log("i'm not here ");
+  B++;
+  continue;
+  console.log("i'm not here ");
 }
 console.log("B:", B);
 
@@ -136,13 +136,13 @@ console.log("|--==========<o8{Functions}8o>==========--|");
  * A JavaScript function is a block of code designed to perform a particular task.
  */
 function Multiplication(p1, p2) {
-    return p1 * p2; // The function returns the product of p1 and p2
+  return p1 * p2; // The function returns the product of p1 and p2
 }
 console.log(Multiplication(5, 6));
 
 function Do() {
-    let M = Multiplication(5, 6);
-    return M / 2;
+  let M = Multiplication(5, 6);
+  return M / 2;
 }
 console.log(Do());
 //|--==========<o8{scoops}8o>==========--|
@@ -157,9 +157,9 @@ console.log("|--==========<o8{scoops}8o>==========--|");
 // Example Local Scope
 
 function addFive(number) {
-    const someVariable = "you can't see me outside this function";
-    console.log(someVariable);
-    return number + 5;
+  const someVariable = "you can't see me outside this function";
+  console.log(someVariable);
+  return number + 5;
 }
 
 addFive(10);
@@ -168,7 +168,7 @@ addFive(10);
 // Example Global scope
 let friendsAtYourParty = 0;
 for (let k = 0; k <= 10; k++) {
-    friendsAtYourParty++;
+  friendsAtYourParty++;
 }
 // console.log(k);
 console.log(friendsAtYourParty);
@@ -277,9 +277,9 @@ console.log("isNaN(NanEX)", isNaN(NanEX));
 //Infinity
 let InfinityNum = 2;
 while (InfinityNum != Infinity) {
-    // Execute until Infinity
-    InfinityNum = InfinityNum * InfinityNum;
-    console.log(InfinityNum);
+  // Execute until Infinity
+  InfinityNum = InfinityNum * InfinityNum;
+  console.log(InfinityNum);
 }
 let x22 = 2 / 0; // x will be Infinity
 console.log(x22);
@@ -291,7 +291,7 @@ console.log(Num1.toString());
 //Search task Can the Number be Object
 // |--==========<o8{Strings & Slice and Split string}8o>==========--|
 console.log(
-    " |--==========<o8{Strings & Slice and Split string}8o>==========--|"
+  " |--==========<o8{Strings & Slice and Split string}8o>==========--|"
 );
 let Str = "this is a String";
 let StrLength = Str.length;
@@ -361,7 +361,7 @@ fruits = ["Banana", "Orange", "Apple", "Mango"];
 fLen = fruits.length;
 
 for (let t = 0; t < fLen; t++) {
-    fruits[t] += " is  " + fruits[t] + "s";
+  fruits[t] += " is  " + fruits[t] + "s";
 }
 console.log(fruits);
 //You can also use the Array.forEach() function:
@@ -387,7 +387,7 @@ delete fruits[0];
 //Array.map()
 let numbers1 = [45, 4, 9, 16, 25];
 let numbers2 = numbers1.map(function myFunction(value) {
-    return value * 2;
+  return value * 2;
 });
 
 console.log(numbers2);
@@ -396,7 +396,7 @@ console.log(numbers2);
 //Array.filter()
 //The filter() method creates a new array with array elements that passes a test.
 let over18 = numbers1.filter(function myFunction(value) {
-    return value > 18;
+  return value > 18;
 });
 console.log(over18);
 
@@ -404,7 +404,7 @@ console.log(over18);
 //The reduce() method runs a function on each array element to produce (reduce it to) a single value.
 
 let sum = numbers1.reduce(function myFunction(total, value) {
-    return total + value;
+  return total + value;
 });
 console.log(sum);
 
